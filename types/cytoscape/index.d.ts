@@ -126,6 +126,7 @@ declare namespace cytoscape {
          */
         id?: string;
         position?: Position;
+        label?: string;
     }
 
     interface EdgeDefinition extends ElementDefinition {
@@ -141,7 +142,7 @@ declare namespace cytoscape {
          * the target node id (edge goes to this node)
          */
         target: string;
-    }
+     }
 
     interface NodeDefinition extends ElementDefinition {
         data: NodeDataDefinition;
