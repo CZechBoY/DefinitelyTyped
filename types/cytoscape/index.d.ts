@@ -126,6 +126,7 @@ declare namespace cytoscape {
          */
         id?: string;
         position?: Position;
+        label?: string;
     }
 
     interface EdgeDefinition extends ElementDefinition {
